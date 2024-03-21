@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 body {
     background-color: #ecb454;
     color: black;
@@ -13,12 +12,21 @@ body {
     margin-bottom: 50px;
   }
 
+  .box1, .box2, .box3, .box4, .box5 {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+  }
 
   .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     animation: fadeIn 6s; 
+    align-content: flex-start;
+    gap: 10px;
   }
 
   @keyframes fadeIn {
@@ -59,3 +67,4 @@ header a {
 header a:hover {
     color: white;
 }
+
