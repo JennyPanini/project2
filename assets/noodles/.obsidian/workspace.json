@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "140510dd9c52af36",
+    "type": "split",
+    "children": [
+      {
+        "id": "133a838758448e1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "211f826ce5a429fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test-output/Ansungtangmyun.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c97dfd612743deb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "55634a683a53c2da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e09a079a46d6f2f6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b3cd6dbfe51c45b1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0acb1ca62759c0f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7624956f93fce275",
+    "type": "split",
+    "children": [
+      {
+        "id": "a43a07a784206de5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf4fab51a9273968",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "test-output/Ansungtangmyun.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0973c7e42bb7da95",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "test-output/Ansungtangmyun.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "906131e9eafff2ac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8e1d030a73a5027c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "test-output/Ansungtangmyun.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-import-json:JSON/CSV Importer": false
+    }
+  },
+  "active": "e09a079a46d6f2f6",
+  "lastOpenFiles": [
+    "test-output/Champong Noodle Soup (Matchampong).md",
+    "test-output/Beef flavor noodles.md",
+    "test-output/Baked Cuttlefish snack.md",
+    "handlebar-files/basetemplate.md",
+    "test-output/Tempura Udon.md",
+    "test-output/Tako Chips.md",
+    "test-output/Sumi Potato Chip.md",
+    "test-output/Sweet Potato Snack.md",
+    "test-output/Star Snack.md",
+    "test-output/Premium Tonkotsu Ramen.md",
+    "test-output/Soba Noodle.md",
+    "test-output/Shrimp Big Bowl.md",
+    "test-output/Seafood Ramyun.md",
+    "test-output/Sarigomtangmyun.md",
+    "test-output/Premium Beef Bowl Noodle Soup.md",
+    "test-output/Potato Snack.md",
+    "test-output/Potato Stick.md",
+    "test-output/Potato Noodle Soup.md",
+    "test-output/Pizza Snack_Waffle Snack.md",
+    "test-output/Pawn Snack (Ansungtangmyun).md",
+    "test-output/Oolongmen Beef.md",
+    "test-output/Onion Snack.md",
+    "test-output/Nongshim Sarimyun Noodle.md",
+    "test-output/Nongshim Rice Noodle.md",
+    "test-output/Neogubonara.md",
+    "test-output/Mupamatangmyun.md",
+    "test-output",
+    "handlebar-files"
+  ]
+}

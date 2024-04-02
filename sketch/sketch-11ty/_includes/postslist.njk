@@ -1,0 +1,45 @@
+{%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
+
+<input type="checkbox" class="filter" value="noodle"> Noodle
+<input type="checkbox" class="filter" value="snack"> Snack
+<!-- Add more check buttons as needed -->
+
+
+<ol reversed class="postlist">
+{% for post in postslist | reverse %}
+	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}" 
+		style="background-color: {{ post.data.color }}"
+
+		{%- if post.data.type -%}
+			data-items='[{% for type in post.data.type -%}"{{ type }}"{%- if not loop.last %},{% endif %}{%- endfor -%}]'
+		{%- endif -%}
+	>
+		
+		<a href="{{ post.url }}" class="postlist-link">
+			{% if post.data.title %}{{ post.data.title }}
+				{% else %}<code>{{ post.url }}</code>
+			{% endif %}
+		</a>
+
+		
+		
+		{# {%- for flavor in post.data.flavors -%}
+			<span>{{ flavor }} {%- if not loop.last %}, {% endif %}</span>
+		{%- endfor -%} #}
+
+		<span>
+			{% if post.data.type %}
+				{{ post.data.type }}
+			{% endif %}
+		</span>
+		
+		{# <span style="background-color: {{ post.data.color}}">
+			{% if post.data.flavors %}
+				{{ post.data.flavors }}
+			{% endif %}
+		</span> #}
+
+		{# <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time> #}
+	</li>
+{% endfor %}
+</ol>
